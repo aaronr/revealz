@@ -2,6 +2,8 @@ So... this is basically Reveal.js, but with the Grunt/Node stuff stripped out.
 
 I just take a release snapshot of Reveal, stripped out what I did not want.
 
+My workflow (and I assume yours as well) is that you want a template presentation to start from, but are not interested in cloning or forking as you will want to change lots of stuff.  So... I just get an archive of the repo, edit some basic stuff, and check it into a new repo.
+
 To install:
 
     wget https://github.com/aaronr/revealz/archive/master.zip
@@ -16,6 +18,9 @@ To run a local (port 8000) webserver (to get the markdown includes to work) I ju
     python -m SimpleHTTPServer
 
 Every server has python... and I like Python.
+
+Go ahead and check that baby into your new repo and roll...
+
 
 The main idea is that the index.html file has been stripped down, the js config moved to a config.js file, and the FULL presentation content comes from slides.md.
 
